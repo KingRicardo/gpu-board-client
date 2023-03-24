@@ -7,7 +7,7 @@ docker run --detach --name gpu-board-client \
     --publish 80 \
     --volume /opt/gpu-board/config.json:/usr/share/nginx/html/config.json:ro \
     --restart always \
-    huww98/gpu-board-client
+    huww98/gpu-board-client:deploy
 ```
 
 ## Project setup
